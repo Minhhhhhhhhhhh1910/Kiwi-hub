@@ -1,6 +1,6 @@
 repeat wait()
 until getgenv().LoadUi and getgenv().IslandCaller and getgenv().SettingManager 
-local Title = "KIWI-HUB V2" .. (getgenv().Premium and " [Premium]" or "")
+local Title = "KIWI HUB" .. (getgenv().Premium and " [Premium]" or "")
 local SubTitle = "True V2"
 local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/FixedFluent.lua"))()
 local UiSetting = Fluent.Options
@@ -12,7 +12,7 @@ local Window = getgenv().Window or Fluent:CreateWindow({
     TabWidth = 160,
     Size = UDim2.fromOffset(480, 360),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "light",
+    Theme = "",
     MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
 })
 local UiOrders = {"Main Farm","Stack Auto farm","Sub Farming","Status","Player-Status","Fruit","Local Player","Travel","Pvp-Visual","Raid-Material","RaceV4-Mirage","Sea Events","Shop","Setting","Webhook","Game-Server","One Click"}
@@ -1894,7 +1894,7 @@ return Title, SubTitle, ElementsCollection
      StatusCode: 200
      Body: repeat wait()
 until getgenv().LoadUi and getgenv().IslandCaller and getgenv().SettingManager 
-local Title = "KIWI-HUB V2" .. (getgenv().Premium and " [Premium]" or "")
+local Title = "KIWI HUB" .. (getgenv().Premium and " [Premium]" or "")
 local SubTitle = "True V2"
 local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/FixedFluent.lua"))()
 local UiSetting = Fluent.Options
@@ -1906,7 +1906,7 @@ local Window = getgenv().Window or Fluent:CreateWindow({
     TabWidth = 160,
     Size = UDim2.fromOffset(480, 360),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "light",
+    Theme = "Dark",
     MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
 })
 local UiOrders = {"Main Farm","Stack Auto farm","Sub Farming","Status","Player-Status","Fruit","Local Player","Travel","Pvp-Visual","Raid-Material","RaceV4-Mirage","Sea Events","Shop","Setting","Webhook","Game-Server","One Click"}
